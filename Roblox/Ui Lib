@@ -125,8 +125,8 @@ do
 	getgenv().UILibrary_Loading = false
 
 	Main.GUI = Instance.new('ScreenGui', Main.Services.CoreGui)
-	Main.GUI.Name = 'Dev X' .. getService('HttpService'):GenerateGUID()
-	sendNotification('Dev X Loaded!', 'Press F1 to show/hide windows!\n- KingUnspirited')
+	Main.GUI.Name = 'Unexpected' .. getService('HttpService'):GenerateGUID()
+	sendNotification('Dev X Loaded!', 'Press F1 to show/hide windows!\n- The_ModelDev')
 	sendNotification('Credits', '`Someone Insane` for giving me an idea to use the style of a mac button!')
 
 	function LB_MODULE:Create(window, instance, props)
