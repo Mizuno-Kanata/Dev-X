@@ -90,7 +90,7 @@ do
 
 		draw.Transparency = 1
 		local text = Drawing.new('Text')
-		text.Text = 'Dev X\n\n\n\nDeveloped By:\nThe_ModelDev'
+		text.Text = 'Unexpected\n\n\n\nDeveloped By:\nThe_ModelDev'
 		text.Center = true
 		text.Color = Color3.fromRGB(255,255,255)
 		text.Size = 30
