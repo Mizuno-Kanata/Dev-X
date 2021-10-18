@@ -269,7 +269,7 @@ UICorner_10.Parent = MainLeft_3
 
 -- Scripts:
 
-local function WDVCV_fake_script() -- Custom.RGB 
+local function AXGPHG_fake_script() -- Custom.RGB 
 	local script = Instance.new('LocalScript', Custom)
 
 	local text = script.Parent
@@ -325,8 +325,8 @@ local function WDVCV_fake_script() -- Custom.RGB
 		end
 	end
 end
-coroutine.wrap(WDVCV_fake_script)()
-local function CFVZ_fake_script() -- AutoFarm.TabScript 
+coroutine.wrap(AXGPHG_fake_script)()
+local function QKAUZWB_fake_script() -- AutoFarm.TabScript 
 	local script = Instance.new('LocalScript', AutoFarm)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -339,8 +339,8 @@ local function CFVZ_fake_script() -- AutoFarm.TabScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(CFVZ_fake_script)()
-local function IMBR_fake_script() -- AutoFarm.RGB 
+coroutine.wrap(QKAUZWB_fake_script)()
+local function VISWICY_fake_script() -- AutoFarm.RGB 
 	local script = Instance.new('LocalScript', AutoFarm)
 
 	local text = script.Parent
@@ -396,8 +396,8 @@ local function IMBR_fake_script() -- AutoFarm.RGB
 		end
 	end
 end
-coroutine.wrap(IMBR_fake_script)()
-local function GUHMIF_fake_script() -- TextLabel.RGB 
+coroutine.wrap(VISWICY_fake_script)()
+local function EMDIX_fake_script() -- TextLabel.RGB 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	local text = script.Parent
@@ -453,8 +453,8 @@ local function GUHMIF_fake_script() -- TextLabel.RGB
 		end
 	end
 end
-coroutine.wrap(GUHMIF_fake_script)()
-local function ANKJ_fake_script() -- Teleport.TabScript 
+coroutine.wrap(EMDIX_fake_script)()
+local function RBFWQ_fake_script() -- Teleport.TabScript 
 	local script = Instance.new('LocalScript', Teleport)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -466,8 +466,8 @@ local function ANKJ_fake_script() -- Teleport.TabScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(ANKJ_fake_script)()
-local function XPSL_fake_script() -- Teleport.RGB 
+coroutine.wrap(RBFWQ_fake_script)()
+local function JWKBLNE_fake_script() -- Teleport.RGB 
 	local script = Instance.new('LocalScript', Teleport)
 
 	local text = script.Parent
@@ -523,8 +523,8 @@ local function XPSL_fake_script() -- Teleport.RGB
 		end
 	end
 end
-coroutine.wrap(XPSL_fake_script)()
-local function XOYI_fake_script() -- Misc.TabScript 
+coroutine.wrap(JWKBLNE_fake_script)()
+local function SGGGI_fake_script() -- Misc.TabScript 
 	local script = Instance.new('LocalScript', Misc)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -536,8 +536,8 @@ local function XOYI_fake_script() -- Misc.TabScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(XOYI_fake_script)()
-local function PLULTWY_fake_script() -- Misc.RGB 
+coroutine.wrap(SGGGI_fake_script)()
+local function CMLG_fake_script() -- Misc.RGB 
 	local script = Instance.new('LocalScript', Misc)
 
 	local text = script.Parent
@@ -593,8 +593,8 @@ local function PLULTWY_fake_script() -- Misc.RGB
 		end
 	end
 end
-coroutine.wrap(PLULTWY_fake_script)()
-local function QVZRUG_fake_script() -- Setting.RGB 
+coroutine.wrap(CMLG_fake_script)()
+local function ZZREFE_fake_script() -- Setting.RGB 
 	local script = Instance.new('LocalScript', Setting)
 
 	local text = script.Parent
@@ -650,8 +650,8 @@ local function QVZRUG_fake_script() -- Setting.RGB
 		end
 	end
 end
-coroutine.wrap(QVZRUG_fake_script)()
-local function DLWXE_fake_script() -- Setting.TabScript 
+coroutine.wrap(ZZREFE_fake_script)()
+local function DAQC_fake_script() -- Setting.TabScript 
 	local script = Instance.new('LocalScript', Setting)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -664,8 +664,8 @@ local function DLWXE_fake_script() -- Setting.TabScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(DLWXE_fake_script)()
-local function XWXBAK_fake_script() -- Main.Drag 
+coroutine.wrap(DAQC_fake_script)()
+local function UOYGJU_fake_script() -- Main.Drag 
 	local script = Instance.new('LocalScript', Main)
 
 	local UIS = game:GetService('UserInputService')
@@ -703,8 +703,8 @@ local function XWXBAK_fake_script() -- Main.Drag
 		end
 	end)
 end
-coroutine.wrap(XWXBAK_fake_script)()
-local function YQDJ_fake_script() -- Main.KeyBlind 
+coroutine.wrap(UOYGJU_fake_script)()
+local function NNMV_fake_script() -- Main.KeyBlind 
 	local script = Instance.new('LocalScript', Main)
 
 	player = game.Players.LocalPlayer
@@ -723,14 +723,14 @@ local function YQDJ_fake_script() -- Main.KeyBlind
 	end)
 	
 end
-coroutine.wrap(YQDJ_fake_script)()
-local function DKHVXGX_fake_script() -- UI.Nonfication Open 
+coroutine.wrap(NNMV_fake_script)()
+local function AMCKSHC_fake_script() -- UI.Nonfication Open 
 	local script = Instance.new('LocalScript', UI)
 
 	local function callback(Text)
 		if Text == "Execute Script" then
-			script.Parent.Main.Visible = true
 			game.Lighting.Blur:Destroy()
+			script.Parent.Main.Visible = true
 		end
 	end
 	
@@ -748,4 +748,4 @@ local function DKHVXGX_fake_script() -- UI.Nonfication Open
 		Callback = NotificationBindable;
 	})
 end
-coroutine.wrap(DKHVXGX_fake_script)()
+coroutine.wrap(AMCKSHC_fake_script)()
