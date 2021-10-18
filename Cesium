@@ -269,7 +269,7 @@ UICorner_10.Parent = MainLeft_3
 
 -- Scripts:
 
-local function AXGPHG_fake_script() -- Custom.RGB 
+local function HBBT_fake_script() -- Custom.RGB 
 	local script = Instance.new('LocalScript', Custom)
 
 	local text = script.Parent
@@ -325,8 +325,8 @@ local function AXGPHG_fake_script() -- Custom.RGB
 		end
 	end
 end
-coroutine.wrap(AXGPHG_fake_script)()
-local function QKAUZWB_fake_script() -- AutoFarm.TabScript 
+coroutine.wrap(HBBT_fake_script)()
+local function HZKESU_fake_script() -- AutoFarm.TabScript 
 	local script = Instance.new('LocalScript', AutoFarm)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -339,8 +339,8 @@ local function QKAUZWB_fake_script() -- AutoFarm.TabScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(QKAUZWB_fake_script)()
-local function VISWICY_fake_script() -- AutoFarm.RGB 
+coroutine.wrap(HZKESU_fake_script)()
+local function MKBBDKB_fake_script() -- AutoFarm.RGB 
 	local script = Instance.new('LocalScript', AutoFarm)
 
 	local text = script.Parent
@@ -396,8 +396,8 @@ local function VISWICY_fake_script() -- AutoFarm.RGB
 		end
 	end
 end
-coroutine.wrap(VISWICY_fake_script)()
-local function EMDIX_fake_script() -- TextLabel.RGB 
+coroutine.wrap(MKBBDKB_fake_script)()
+local function DRDEC_fake_script() -- TextLabel.RGB 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	local text = script.Parent
@@ -453,8 +453,8 @@ local function EMDIX_fake_script() -- TextLabel.RGB
 		end
 	end
 end
-coroutine.wrap(EMDIX_fake_script)()
-local function RBFWQ_fake_script() -- Teleport.TabScript 
+coroutine.wrap(DRDEC_fake_script)()
+local function WDCN_fake_script() -- Teleport.TabScript 
 	local script = Instance.new('LocalScript', Teleport)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -466,8 +466,8 @@ local function RBFWQ_fake_script() -- Teleport.TabScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(RBFWQ_fake_script)()
-local function JWKBLNE_fake_script() -- Teleport.RGB 
+coroutine.wrap(WDCN_fake_script)()
+local function MWLD_fake_script() -- Teleport.RGB 
 	local script = Instance.new('LocalScript', Teleport)
 
 	local text = script.Parent
@@ -523,8 +523,8 @@ local function JWKBLNE_fake_script() -- Teleport.RGB
 		end
 	end
 end
-coroutine.wrap(JWKBLNE_fake_script)()
-local function SGGGI_fake_script() -- Misc.TabScript 
+coroutine.wrap(MWLD_fake_script)()
+local function VZTVNH_fake_script() -- Misc.TabScript 
 	local script = Instance.new('LocalScript', Misc)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -536,8 +536,8 @@ local function SGGGI_fake_script() -- Misc.TabScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(SGGGI_fake_script)()
-local function CMLG_fake_script() -- Misc.RGB 
+coroutine.wrap(VZTVNH_fake_script)()
+local function OPDUENV_fake_script() -- Misc.RGB 
 	local script = Instance.new('LocalScript', Misc)
 
 	local text = script.Parent
@@ -593,8 +593,8 @@ local function CMLG_fake_script() -- Misc.RGB
 		end
 	end
 end
-coroutine.wrap(CMLG_fake_script)()
-local function ZZREFE_fake_script() -- Setting.RGB 
+coroutine.wrap(OPDUENV_fake_script)()
+local function YXEWOQN_fake_script() -- Setting.RGB 
 	local script = Instance.new('LocalScript', Setting)
 
 	local text = script.Parent
@@ -650,8 +650,8 @@ local function ZZREFE_fake_script() -- Setting.RGB
 		end
 	end
 end
-coroutine.wrap(ZZREFE_fake_script)()
-local function DAQC_fake_script() -- Setting.TabScript 
+coroutine.wrap(YXEWOQN_fake_script)()
+local function FGJYT_fake_script() -- Setting.TabScript 
 	local script = Instance.new('LocalScript', Setting)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -664,8 +664,8 @@ local function DAQC_fake_script() -- Setting.TabScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(DAQC_fake_script)()
-local function UOYGJU_fake_script() -- Main.Drag 
+coroutine.wrap(FGJYT_fake_script)()
+local function CUXFXWF_fake_script() -- Main.Drag 
 	local script = Instance.new('LocalScript', Main)
 
 	local UIS = game:GetService('UserInputService')
@@ -703,8 +703,8 @@ local function UOYGJU_fake_script() -- Main.Drag
 		end
 	end)
 end
-coroutine.wrap(UOYGJU_fake_script)()
-local function NNMV_fake_script() -- Main.KeyBlind 
+coroutine.wrap(CUXFXWF_fake_script)()
+local function KWXPPF_fake_script() -- Main.KeyBlind 
 	local script = Instance.new('LocalScript', Main)
 
 	player = game.Players.LocalPlayer
@@ -723,8 +723,8 @@ local function NNMV_fake_script() -- Main.KeyBlind
 	end)
 	
 end
-coroutine.wrap(NNMV_fake_script)()
-local function AMCKSHC_fake_script() -- UI.Nonfication Open 
+coroutine.wrap(KWXPPF_fake_script)()
+local function PCYOFQP_fake_script() -- UI.Nonfication Open 
 	local script = Instance.new('LocalScript', UI)
 
 	local function callback(Text)
@@ -742,10 +742,10 @@ local function AMCKSHC_fake_script() -- UI.Nonfication Open
 	game.StarterGui:SetCore("SendNotification",  {
 		Title = "Cesium Hub";
 		Text = "Version 1.0";
-		Icon = "";
+		Icon = "https://web.roblox.com/asset/?id=7772339935";
 		Duration = 100;
 		Button1 = "Execute Script";
 		Callback = NotificationBindable;
 	})
 end
-coroutine.wrap(AMCKSHC_fake_script)()
+coroutine.wrap(PCYOFQP_fake_script)()
